@@ -1,0 +1,1 @@
+export {default as ServiceTab} from "./ServiceTab.svelte"

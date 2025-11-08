@@ -1,0 +1,14 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+@import '@skeletonlabs/skeleton';
+@import '@skeletonlabs/skeleton-svelte';
+@import '@skeletonlabs/skeleton/themes/cerberus';
+@custom-variant dark (&:where([data-mode=dark], [data-mode=dark] *));
+
+[data-theme='cerberus'] {
+  --body-background-color: rgba(255, 255, 255, 1);
+  --body-background-color-dark: rgba(0, 0, 0, 1);
+  --base-font-color: rgba(0, 0, 0, 1);
+  --base-font-color-dark: rgba(255, 255, 255, 1);
+}
