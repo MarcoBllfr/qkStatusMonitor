@@ -3,32 +3,24 @@
     "id": "1",
     "name": "Auth API",
     "url": "https://httpbin.org/status/200",
-    "status": "ok",
-    "responseTime": 132,
-    "lastChecked": "2025-11-05T22:00:00Z"
+    "description": "Authentication service"
   },
   {
     "id": "2",
     "name": "Payments API",
     "url": "https://httpbin.org/status/404",
-    "status": "down",
-    "responseTime": 10,
-    "lastChecked": "2025-11-05T21:59:30Z"
+    "description": "Payment processing"
   },
-   {
+  {
     "id": "3",
     "name": "Random API",
     "url": "https://httpbin.org/status/500",
-    "status": "ping",
-    "responseTime": 0,
-    "lastChecked": "2025-11-05T21:59:30Z"
+    "description": "Random data generator"
   },
-   {
+  {
     "id": "4",
-    "name": "Random API",
-    "url": "https://httpbin.org/status/300",
-    "status": "unknow",
-    "responseTime": 0,
-    "lastChecked": "2025-11-05T21:59:30Z"
+    "name": "User API",
+    "url": "https://httpbin.org/delay/5",
+    "description": "User management service"
   }
 ]

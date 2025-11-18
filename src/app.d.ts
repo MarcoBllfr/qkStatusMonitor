@@ -17,7 +17,7 @@ type ServiceType = {
   responseTime?: number;
   lastChecked?: string;
 };
-type Status = "ok" | "down" | "ping";
+type Status = "ok" | "down" | "ping" | "unknown";
 
 type ServiceProps = {
   name: string;
